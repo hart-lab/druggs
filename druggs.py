@@ -1,23 +1,26 @@
+#!/usr/bin/env python
+
+VERSION = "0.1"
+BUILD   = 2
+
+#---------------------------------
+# DRUGGS:  Identify drug-gene interactions in paired sample 
+#          genomic perturbation screens using Gibbs Sampling
+# written by Medina Colic and Traver hart
+# Last modified 15 Jun 2018
+# Free to modify and redistribute (MIT license)
+#---------------------------------
+
+
+# ------------------------------------
+# python modules
+# ------------------------------------
 import sys
 
 import time
 from functools import wraps
 
 start = time.time()
-
-#def fn_timer(function):
-#    @wraps(function)
-#    def function_timer(*args, **kwargs):
-#        t0 = time.time()
-#        result = function(*args, **kwargs)
-#        t1 = time.time()
-#        print ("Total time running %s: %s seconds" %
-#               (function.func_name, str(t1-t0))
-#               )
-#        return result
-#    return function_timer
-
-
 
 from pylab import *
 
